@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans";
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --white: #fff;
+  --logoColor: #ee1c45;
+  --logoTextStyle: Clicker Script;
+  --navSize: 14px;
+  --btnBackground: linear-gradient(90deg, #cd1a40, #ff803c);
+  --btnTextColor: #fff;
+  --btnBorderRadius: 18px;
+  --bannerTextStyle: Water Brush;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 0 20px;
+  display: flex;
+}
+
+/* @media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+} */
+/* @media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+} */

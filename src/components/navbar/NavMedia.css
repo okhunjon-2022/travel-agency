@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+    .nav-logo {
+      font-size: 30px;
+    }
+    .nav-items {
+      width: 50%;
+    }
+  }
+  @media (max-width: 768px) { 
+    .nav-login {
+      width: 22%;
+    }
+    .nav-SignUp {
+      width: 85px;
+      height: 40px;
+    }
+    .nav-hamburger {
+      display: block;
+    }
+    .nav-login {
+      display: none;
+    }
+    .nav-items {
+      display: none;
+    }
+  }

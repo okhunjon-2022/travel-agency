@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+  .banner-inputs {
+    border: 2px solid red;
+  }
+}
+@media (max-width: 768px) {
+  .banner-inputs {
+    width: 80%;
+    height: 90px;
+  }
+  .banner-location {
+    width: 80px;
+    height: 40px;
+  }
+  .location-icon,
+  .date-icon,
+  .banner-btn svg {
+    font-size: 24px;
+  }
+  .location-info p {
+    font-size: 16px;
+  }
+  .location-info,
+  .date-info h5 {
+    font-size: 18px;
+  }
+  .banner-date {
+    width: 150px;
+    height: 40px;
+  }
+  .banner-btn {
+    width: 55px;
+    height: 55px;
+  }
+  .banner-title {
+    font-size: 38px;
+  }
+  .banner-subTitle {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .banner-desc {
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #000;
+  }
+}
+@media (max-width: 609px) {
+  .banner-desc {
+    width: 70%;
+  }
+  .banner-inputs {
+    width: 70%;
+    height: 90px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner-subTitle {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}

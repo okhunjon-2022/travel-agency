@@ -1,0 +1,74 @@
+.banner {
+  width: 580px;
+  min-height: 415px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 30%;
+}
+.banner-title {
+  font-size: 46px;
+  font-family: var(--bannerTextStyle);
+  font-weight: normal;
+}
+.banner-subTitle {
+  font-size: 86px;
+  font-weight: bold;
+}
+.banner-desc {
+  font-size: 15.8px;
+  line-height: 25px;
+}
+.banner-inputs {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.8;
+  background-color: #251f21;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.banner-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 126px;
+  height: 50px;
+}
+.location-icon,
+.date-icon,
+.banner-btn svg {
+  font-size: 24px;
+}
+.location-info p {
+  font-size: 16px;
+}
+.location-info,
+.date-info h5 {
+  font-size: 20px;
+}
+.banner-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 166px;
+  height: 50px;
+}
+.banner-btn {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--btnBorderRadius);
+  background: var(--btnBackground);
+}
+.banner-btn button {
+  background: none;
+  border: none;
+  color: #fff;
+}
