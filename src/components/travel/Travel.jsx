@@ -54,7 +54,7 @@ const Travel = () => {
         </div>
         <div className="travel-info">
           {travelList?.map((item, inx) => (
-            <div className="travel-item">
+            <div key={inx} className="travel-item">
               <img src={item?.image} alt="" />
               <h3>{item?.title}</h3>
               <p>{item?.desc}</p>

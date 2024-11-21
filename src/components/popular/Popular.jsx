@@ -40,7 +40,7 @@ const Popular = () => {
         </div>
         <div className="popular-packages">
           {packagesList?.map((item, inx) => (
-            <div className="package">
+            <div key={inx} className="package">
               <img src={item?.image} alt="" />
               <div className="package-info">
                 <div className="package-title">
