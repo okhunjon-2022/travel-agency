@@ -29,11 +29,11 @@
   display: flex;
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 480px) {
   .container {
-    max-width: 1024px;
+    padding: 0 10px;
   }
-} */
+}
 /* @media (min-width: 768px) {
   .container {
     max-width: 768px;

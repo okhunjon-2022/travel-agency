@@ -32,7 +32,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 20px 0;
-
 }
 .package {
   width: 378px;
@@ -61,4 +60,10 @@
 }
 .package-price {
   font-weight: 600;
+}
+
+@media (max-width: 825px) {
+  .popular-packages {
+    justify-content: center;
+  }
 }

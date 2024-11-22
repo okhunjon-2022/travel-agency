@@ -5,10 +5,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
-  top: 30%;
+  margin-top: 10%;
 }
 .banner-title {
+  width: 100%;
   font-size: 46px;
   font-family: var(--bannerTextStyle);
   font-weight: normal;

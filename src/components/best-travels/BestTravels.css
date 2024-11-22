@@ -14,3 +14,9 @@
   width: 380px;
   height: 486px;
 }
+
+@media (max-width: 825px) {
+  .best-travel-photos {
+    justify-content: center;
+  }
+}

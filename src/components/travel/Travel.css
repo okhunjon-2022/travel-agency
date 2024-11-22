@@ -50,7 +50,8 @@
   border: 1px solid #000;
 }
 
-
-
-
-
+@media (max-width: 825px) {
+  .travel-info {
+    justify-content: center;
+  }
+}

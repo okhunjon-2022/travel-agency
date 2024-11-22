@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  min-height: 100vh;
+  min-height: 680px;
   background-image: url("../../assets//banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;

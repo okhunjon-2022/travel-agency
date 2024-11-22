@@ -3,8 +3,9 @@ import "./Footer.css";
 import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="container">
-      <div className="footer">
+    // <div className="container">
+    <div className="footer">
+      <div className="container">
         <div className="footer-container">
           <div className="footer-title">
             <h1>Listee Travel</h1>
@@ -54,6 +55,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 
